@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open Force 2022</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form action="/login" method="POST">
+        <h3>Login Here</h3>
+
+        <!-- <form action="/login" method="POST"></form> -->
+        <label for="username">Username</label>
+        <input type="text" placeholder="Email" name="username">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" name="password">
+
+        <button>Log In</button>
+        <div class="social">
+            <a href="/auth/google" role="button">
+                <div class="go"><i class="fab fa-google"></i> Google</div>
+            </a>
+            <a href="/auth/github" role="button">
+                <div class="fb"><i class="fab fa-github"></i> GitHub</div>
+            </a>
+        </div>
+    </form>
+</body>
+
+</html>
